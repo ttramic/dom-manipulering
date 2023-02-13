@@ -97,6 +97,7 @@ const myData = {
 
 const myFigure = document.getElementById('opgaveFour');
 
+let myArticle = document.createElement('article')
 
 let petName = document.createElement('h2');
     petName.innerHTML = myData.name;
@@ -111,7 +112,7 @@ let petDisc = document.createElement('p');
     petDisc.innerHTML = myData.description;
 
 
-
+myFigure.appendChild(myArticle)
 myFigure.appendChild(petName)
 myFigure.appendChild(petImg)
 myFigure.appendChild(petDisc)
