@@ -103,7 +103,6 @@ let petName = document.createElement('h2');
     petName.innerHTML = myData.name;
 
 let petImg = document.createElement('img');
-    petImg.setAttribute("src", petImg)
     petImg.src = myData.image;
     
     
@@ -113,8 +112,8 @@ let petDisc = document.createElement('p');
 
 
 myFigure.appendChild(myArticle)
-myFigure.appendChild(petName)
-myFigure.appendChild(petImg)
-myFigure.appendChild(petDisc)
+myArticle.appendChild(petName)
+myArticle.appendChild(petImg)
+myArticle.appendChild(petDisc)
 
 
