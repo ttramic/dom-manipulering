@@ -98,6 +98,7 @@ const myData = {
 const myFigure = document.getElementById('opgaveFour');
 
 let myArticle = document.createElement('article')
+    myArticle.classList.add("galleryCard")
 
 let petName = document.createElement('h2');
     petName.innerHTML = myData.name;
