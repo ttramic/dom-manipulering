@@ -104,7 +104,7 @@ let petName = document.createElement('h2');
 
 let petImg = document.createElement('img');
     petImg.src = myData.image;
-    
+    petImg.alt = myData.name;    
     
         
 let petDisc = document.createElement('p');
